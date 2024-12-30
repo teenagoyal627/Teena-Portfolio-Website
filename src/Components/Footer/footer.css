@@ -1,20 +1,18 @@
-/* Footer Container Styling */
 .footer {
     background-color: #333;
     color: white;
-    padding: 2rem 0;
+    padding: .8rem 0;
     text-align: center;
-    position: relative;
-    bottom: 0;
+    /* margin-top: 28.7rem; */
+    /* position: relative; */
+    /* bottom: 0; */
   }
   
-  /* Footer Links and Icons */
   .footer-container {
     max-width: 1200px;
     margin: auto;
   }
   
-  /* Social Icons Styling */
   .social {
     display: flex;
     justify-content: center;
@@ -31,25 +29,26 @@
   
   .social a:hover {
     transform: scale(1.2);
-    color: #1e90ff; /* You can change this color to match your theme */
+    color: #ccc;
   }
   
-  /* Footer Text */
   .footer-text {
     font-size: 14px;
     margin-top: 1rem;
     color: #ccc;
   }
   
-  /* Icon Styling */
   .social svg {
     transition: transform 0.3s ease, color 0.3s ease;
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .social {
       flex-direction: row;
+    }
+    .footer{
+      margin-top: 20.8rem;
+
     }
   }
   
