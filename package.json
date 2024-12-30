@@ -1,5 +1,6 @@
 {
-"homepage": "https://teenagoyal627.github.io/Teena-Portfolio-Website",  "name": "react-app",
+"homepage": "https://teenagoyal627.github.io/Teena-Portfolio-Website", 
+ "name": "react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
