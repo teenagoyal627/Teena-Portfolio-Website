@@ -1,0 +1,85 @@
+.education-container {
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: 22rem;
+
+  }
+ 
+  
+  .education-box {
+    margin-top: 1rem;
+    border: 2px solid #ddd;
+    width: 70%;
+    margin-left: 4rem;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+  }
+  
+  .education-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .education-header p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-header span {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+  
+  .logo-container {
+    flex: 1;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
+  .liet-logo {
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coursework {
+    flex: 2;
+  }
+  
+  .coursework h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .coursework ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .coursework li {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .coursework li:before {
+    content: "\2022";
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 1rem;
+    display: inline-block;
+  }
+  

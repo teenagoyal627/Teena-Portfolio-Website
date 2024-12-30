@@ -1,0 +1,55 @@
+/* Footer Container Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+  }
+  
+  /* Footer Links and Icons */
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Social Icons Styling */
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .social a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social a:hover {
+    transform: scale(1.2);
+    color: #1e90ff; /* You can change this color to match your theme */
+  }
+  
+  /* Footer Text */
+  .footer-text {
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #ccc;
+  }
+  
+  /* Icon Styling */
+  .social svg {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .social {
+      flex-direction: row;
+    }
+  }
+  

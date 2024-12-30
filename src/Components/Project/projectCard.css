@@ -1,0 +1,81 @@
+.project-heading {
+    font-size: 2.5rem;
+    margin-left: 23rem;
+  }
+  
+  .project-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive column sizing */
+    grid-gap: 2rem; 
+    padding: 2rem 1rem;
+  }
+  
+  .project-card {
+    background: #f9f9f9; 
+    height: 27rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    overflow: hidden;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly intense shadow on hover */
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 180px; 
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .project-title {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .project-des p {
+    font-size: 1rem;
+    color: #555; /* Softer text color */
+    line-height: 1.6;
+    margin: 0 1rem;
+  }
+  
+  .pro-btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .pro-btns .btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #007bff; /* Primary button color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pro-btns .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  @media screen and (max-width: 740px) {
+    .project-container {
+      grid-template-columns: 1fr; /* Single column layout for smaller screens */
+      padding: 1rem;
+    }
+  }
+  

@@ -1,0 +1,76 @@
+.experience-container {
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: 22rem;
+
+  }
+  
+  .experience-container h1 {
+    font-size: 2.5rem;
+
+  }
+  
+  .experience-box {
+    margin-top: 1rem;
+    width: 70%;
+    margin-left: 4rem;
+    border: 2px solid #ddd;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+
+  
+  .experience-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .company-logo {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .experience-header h2 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .experience-header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .experience-header span {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+.experience-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .experience-details li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .experience-details li:before {
+    content: "\2022";
+    font-size: 1rem;
+    margin-right: 1rem;
+    display: inline-block;
+  }

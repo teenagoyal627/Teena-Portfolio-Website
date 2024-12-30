@@ -1,0 +1,112 @@
+[debug] [2024-12-28T17:22:29.201Z] ----------------------------------------------------------------------
+[debug] [2024-12-28T17:22:29.208Z] Command:       /usr/local/bin/node /usr/bin/firebase deploy
+[debug] [2024-12-28T17:22:29.209Z] CLI Version:   12.4.0
+[debug] [2024-12-28T17:22:29.210Z] Platform:      linux
+[debug] [2024-12-28T17:22:29.210Z] Node Version:  v20.3.0
+[debug] [2024-12-28T17:22:29.210Z] Time:          Sat Dec 28 2024 22:52:29 GMT+0530 (India Standard Time)
+[debug] [2024-12-28T17:22:29.211Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-28T17:22:29.216Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-12-28T17:22:29.540Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-28T17:22:29.541Z] > authorizing via signed-in user (sapnango346@gmail.com)
+[debug] [2024-12-28T17:22:29.542Z] [iam] checking project hospital-managment-final for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-12-28T17:22:29.543Z] > refreshing access token with scopes: []
+[debug] [2024-12-28T17:22:29.545Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-28T17:22:29.545Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-28T17:22:30.515Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-12-28T17:22:30.516Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-28T17:22:31.498Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions [none]
+[debug] [2024-12-28T17:22:31.498Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions x-goog-quota-user=projects/hospital-managment-final
+[debug] [2024-12-28T17:22:31.498Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-12-28T17:22:31.502Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-12-28T17:22:31.503Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-12-28T17:22:34.664Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions 200
+[debug] [2024-12-28T17:22:34.665Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions {}
+[debug] [2024-12-28T17:22:34.665Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project hospital-managment-final:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2024-12-28T17:22:34.667Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hospital-managment-final [none]
+[debug] [2024-12-28T17:22:40.294Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hospital-managment-final 403
+[debug] [2024-12-28T17:22:40.295Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hospital-managment-final {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-12-28T17:22:40.297Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-12-28T17:22:40.609Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/usr/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project hospital-managment-final. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-12-28T17:22:42.475Z] Error when notifying about new CLI updates:
+[debug] [2024-12-28T17:24:06.956Z] ----------------------------------------------------------------------
+[debug] [2024-12-28T17:24:06.960Z] Command:       /usr/local/bin/node /usr/bin/firebase init
+[debug] [2024-12-28T17:24:06.961Z] CLI Version:   12.4.0
+[debug] [2024-12-28T17:24:06.961Z] Platform:      linux
+[debug] [2024-12-28T17:24:06.962Z] Node Version:  v20.3.0
+[debug] [2024-12-28T17:24:06.962Z] Time:          Sat Dec 28 2024 22:54:06 GMT+0530 (India Standard Time)
+[debug] [2024-12-28T17:24:06.962Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-28T17:24:07.094Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-28T17:24:07.094Z] > authorizing via signed-in user (sapnango346@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/teena/Documents/Documents/TeenaDocuments/Reactjs/PortfolioWebsite/react-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-12-28T17:24:17.403Z] Using project from CLI flag: hospital-managment-final
+[debug] [2024-12-28T17:24:17.407Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hospital-managment-final [none]
+[debug] [2024-12-28T17:24:18.503Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hospital-managment-final 403
+[debug] [2024-12-28T17:24:18.503Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hospital-managment-final {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-12-28T17:24:18.504Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-12-28T17:24:18.823Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/usr/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project hospital-managment-final. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-12-28T17:27:05.562Z] ----------------------------------------------------------------------
+[debug] [2024-12-28T17:27:05.566Z] Command:       /usr/local/bin/node /usr/bin/firebase deploy --only hosting:hospital-managment-final
+[debug] [2024-12-28T17:27:05.567Z] CLI Version:   12.4.0
+[debug] [2024-12-28T17:27:05.567Z] Platform:      linux
+[debug] [2024-12-28T17:27:05.568Z] Node Version:  v20.3.0
+[debug] [2024-12-28T17:27:05.568Z] Time:          Sat Dec 28 2024 22:57:05 GMT+0530 (India Standard Time)
+[debug] [2024-12-28T17:27:05.568Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-28T17:27:05.706Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-28T17:27:05.706Z] > authorizing via signed-in user (sapnango346@gmail.com)
+[debug] [2024-12-28T17:27:05.707Z] [iam] checking project hospital-managment-final for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-12-28T17:27:05.711Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions [none]
+[debug] [2024-12-28T17:27:05.711Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions x-goog-quota-user=projects/hospital-managment-final
+[debug] [2024-12-28T17:27:05.711Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-12-28T17:27:07.955Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions 200
+[debug] [2024-12-28T17:27:07.955Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hospital-managment-final:testIamPermissions {}
+[debug] [2024-12-28T17:27:07.956Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project hospital-managment-final:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2024-12-28T17:27:07.957Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hospital-managment-final [none]
+[debug] [2024-12-28T17:27:08.868Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hospital-managment-final 403
+[debug] [2024-12-28T17:27:08.868Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hospital-managment-final {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-12-28T17:27:08.870Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-12-28T17:27:09.187Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/usr/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project hospital-managment-final. Please make sure the project exists and your account has permission to access it.
