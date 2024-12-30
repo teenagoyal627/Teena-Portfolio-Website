@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Teena-Portfolio-Website/static/css/main.3fd67aa1.css",
+    "main.js": "/Teena-Portfolio-Website/static/js/main.de4e48e9.js",
+    "index.html": "/Teena-Portfolio-Website/index.html",
+    "main.3fd67aa1.css.map": "/Teena-Portfolio-Website/static/css/main.3fd67aa1.css.map",
+    "main.de4e48e9.js.map": "/Teena-Portfolio-Website/static/js/main.de4e48e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fd67aa1.css",
+    "static/js/main.de4e48e9.js"
+  ]
+}
