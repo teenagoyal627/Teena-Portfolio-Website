@@ -8,15 +8,13 @@ import Project from '../Components/Project/Project'
 
 const RouteAllFiles = () => {
   return (
-    <Router>
-      <Switch>
+    <>
       <Route path='/' exact><Home/></Route>
       <Route path='/education'><Education/></Route>
       <Route path ='/experience'><Experience/></Route>
       <Route path='/skills'><Skill/></Route>
       <Route path='/project'><Project/></Route>
-      </Switch>
-      </Router>
+      </>
     
   )
 }
