@@ -1,5 +1,6 @@
 import React from 'react';
 import './EducationText.css';
+import lietlogo from '../../Image/lietlogo.png'
 
 const EducationText = () => {
   return (
@@ -13,7 +14,7 @@ const EducationText = () => {
         </div>
         <div className="content-wrapper">
           <div className="logo-container">
-            <img src="Image/lietlogo.png" alt="LIET Logo" className="liet-logo" />
+            <img src={lietlogo} alt="LIET Logo" className="liet-logo" />
           </div>
           <div className="coursework">
             <h3>Coursework:</h3>

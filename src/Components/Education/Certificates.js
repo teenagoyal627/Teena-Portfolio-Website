@@ -1,5 +1,6 @@
 import React from 'react';
 import './EducationText.css';
+import udemy from '../../Image/udemyLogo.png'
 
 const Certificates = () => {
   return (
@@ -11,7 +12,7 @@ const Certificates = () => {
         </div>
         <div className="content-wrapper">
           <div className="logo-container" style={{height:"270px",borderRadius:"3px"}}>
-            <img src="Image/udemyLogo.png" alt="LIET Logo" className="liet-logo" />
+            <img src={udemy} alt="LIET Logo" className="liet-logo" />
           </div>
           <div className="coursework">
             <h3>Coursework:</h3>

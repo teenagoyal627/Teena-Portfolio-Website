@@ -1,5 +1,8 @@
 import React from 'react';
 import './Experience.css'
+import sapnalogo from '../../Image/sapnalogo.jpeg'
+import medingen from '../../Image/medingen.png'
+
 const ExperienceText = () => {
   return (
     <div className="experience-container">
@@ -7,7 +10,7 @@ const ExperienceText = () => {
       <div className="experience-box">
         <div className="experience-header">
           <div className="header-logo">
-            <img src="Image/sapnalogo.jpeg" alt="Sapna IT Consultancy Logo" className="company-logo" />
+            <img src={sapnalogo} alt="Sapna IT Consultancy Logo" className="company-logo" />
             <h2>Sapna IT Consultancy</h2>
           </div>
           <p>Full Stack Developer Intern</p>
@@ -26,7 +29,7 @@ const ExperienceText = () => {
       <div className="experience-box">
         <div className="experience-header">
           <div className="header-logo">
-            <img src='Image/medingen.png' alt="Medingen Logo" className="company-logo" />
+            <img src={medingen} alt="Medingen Logo" className="company-logo" />
             <h2>Medingen</h2>
           </div>
           <p>Full Stack Developer Intern</p>

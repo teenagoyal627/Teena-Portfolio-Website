@@ -1,6 +1,8 @@
 import React from 'react'
 import './projectCard.css'
 const AllProjectProps = (props) => {
+
+    console.log(props)
   return (
   
         <div className="project-card">
